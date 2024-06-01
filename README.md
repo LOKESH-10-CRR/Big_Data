@@ -14,3 +14,7 @@
 #### 2) Secret Utilities ( from key vault).
 #### 3) Widget Utilities ( parameterize notebooks so that a data factory pipeline can call this notebook. just like a parameter to function. Really help full for reusability purpose).
 #### 4) Notebook Workflow Utilities ( Allow us to call another work book ).
+### while doing file operations from Azure data bricks to File blob storage better to follow abfs driver process (azure blob File system ) driver. The following syntax as given below .
+### abfs[s]:// container @storage_account_name.dfs.core.windows.net / folder_path / file_name .
+### example :- abfss://demo@formula1dl.dfs.core.windows.net/
+### example2 :- abfss://demo@formula1dl.fs.core.windows.net/test.
