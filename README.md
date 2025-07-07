@@ -18,3 +18,5 @@
 ### abfs[s]:// container @storage_account_name.dfs.core.windows.net / folder_path / file_name .
 ### example :- abfss://demo@formula1dl.dfs.core.windows.net/
 ### example2 :- abfss://demo@formula1dl.fs.core.windows.net/test.
+
+### https://colab.research.google.com/drive/17baMmZeRJ7ccO8J0VWmjr3G_4NXVHwau?usp=sharing
